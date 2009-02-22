@@ -21,7 +21,7 @@ import com.shade.states.MasterState;
 
 public class Mushroom extends Linkable {
 
-    protected static final float SPEED = 3f;
+    protected static final float SPEED = 3.2f;
 
     private static final float RADIUS = 3f;
     private static final float SCALE_INCREMENT = .02f;
@@ -133,7 +133,7 @@ public class Mushroom extends Linkable {
     }
 
     protected void shrink() {
-        scale -= SCALE_INCREMENT / 3;
+        scale -= SCALE_INCREMENT / 4;
         resize();
     }
     
